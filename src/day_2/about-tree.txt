@@ -1,0 +1,5 @@
+export CLASSPATH=`pwd`/junit-4.10.jar
+echo $CLASSPATH
+/Users/shiyis/Workspace/princeton-algorithm-one-class/src/day_2/junit-4.10.jar
+
+export CLASSPATH=${CLASSPATH}:/Users/shiyis/Workspace/princeton-algorithm-one-class/src/day_2
