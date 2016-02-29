@@ -1,0 +1,67 @@
+Please use this Google doc to code during your interview. To free your hands for coding, we recommend that you use a headset or a phone with speaker option.
+
+
+
+ticket
+#ID
+#carPlateNumber
+#spotID
+#entryTime
+#leaveTime
+#employeeID
+
+employee
+#ID
+#name
+
+garage
+#SpotID
+#status
+
+customer
+#ID
+#name
+#contactInfo
+#carPlateNumber
+
+contract
+#ID
+#customerID
+#period
+
+
+select c.name
+from garage g, customer c, ticket t
+where g.status = ‘open’ 
+and t.spotID = g.spotID 
+and c.carPlateNumber = t.carPlateNumber
+
+
+
+Example:
+input: abcdabcf
+output: d
+
+
+
+public char findUniqueChar (String str){
+	
+Hashtable<char> hash = new Hashtable<char>();
+for(int i=0; i<str.length();i++){
+char c = str.chatAt(i);
+if(hash.containsKey(c))
+	hash.set(c, -1);
+else
+hash.put(c,i);
+}
+	
+int min  = 0; 
+char cs;
+	for(char key : hash){
+		int j = hash.get(key);
+if( j!= -1 && j < min)
+min = j;
+cs = key;
+}
+	return key;
+}

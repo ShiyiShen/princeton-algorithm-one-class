@@ -5,7 +5,7 @@ public int findMinimal(int[] arr){
 	return findMinimal(arr, left, right);
 }
 
-
+//find the picece that is out of order
 private int findMinimal(int[] arr, int left, int right){
 	if(arr[left] < arr[right])
 		reurn left;

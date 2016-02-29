@@ -1,3 +1,4 @@
+/* aabcccccaaa to a2b1c5a3 */
 public class CompressBadImproved{
 	public static int countCompression (String st) {
 		int length = 0;
@@ -46,9 +47,5 @@ public class CompressBadImproved{
 			compressVersion.append(count);
 			System.out.println("New string: " + compressVersion.toString());
 		}
-
-
-
-
 	}
 }

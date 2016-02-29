@@ -1,3 +1,4 @@
+/* aabcccccaaa to a2b1c5a3 */
 public class CompressBad{
 
 	public static void main (String[] args){

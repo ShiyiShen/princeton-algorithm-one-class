@@ -1,3 +1,4 @@
+/* remove even number from a stack */
 public Stack<Integer> removeEvenNumber (Stack<Integer> s){
 	Stack tmp = new Stack();
 	while (!s.isEmpty()){
